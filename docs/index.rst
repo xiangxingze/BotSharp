@@ -34,9 +34,9 @@ BotSharp 严格遵循组件化原则，将平台构建器中所需的每个部�
    :maxdepth: 2
    :caption: 快速开始 BotSharp
 
-   quick-start/overview
-   quick-start/get-started
-   quick-start/installation
+   快速启动/概览
+   快速启动/开始
+   快速启动/安装
 
 .. _agent-docs:
 
@@ -44,17 +44,17 @@ BotSharp 严格遵循组件化原则，将平台构建器中所需的每个部�
    :maxdepth: 2
    :caption: 智能代理（Agent）
 
-   agent/intro
-   agent/router
-   agent/hook
+   代理/介绍
+   代理/路由器
+   代理/钩子
 
 .. toctree::
    :maxdepth: 2
    :caption: 对话
 
-   conversation/intro
-   conversation/state
-   conversation/hook
+   对话/介绍
+   对话/状态
+   对话/挂钩
 
 .. _integration-docs:
 
