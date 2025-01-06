@@ -1,9 +1,10 @@
-.. BotSharp documentation master file, created by
-   sphinx-quickstart on Sun Aug 19 10:40:29 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+BotSharp 文档主文件
+======================================================
 
-The Open Source LLM Application Framework
+.. BotSharp 文档主文件，由 sphinx-quickstart 于 2018 年 8 月 19 日周日 10:40:29 创建。
+您可以根据自己的需求完全修改此文件，但至少应该包含根 `toctree` 指令。
+
+开源 LLM 应用框架
 ======================================================
 
 .. image:: static/logos/Logo.png
@@ -12,34 +13,33 @@ The Open Source LLM Application Framework
 .. image:: https://img.shields.io/discord/1106946823282761851?label=Discord
     :target: `discord`_
 
-**Connect LLMs to your application with .NET**
+**使用 .NET 将 LLM 集成到您的应用程序中**
 
-> The LLM powered Conversational Service building blocks and best practice 
+> 基于 LLM 的对话服务构建模块及最佳实践
 
-*"Conversation as a platform (CaaP) is the future, so it's perfect that we're already offering the whole toolkits to .NET developers using BotSharp the Bot Platform Builder to build a CaaP. It opens up as much learning power as possible for your robots and precisely control every step of the AI processing pipeline."*
+*"对话即平台（CaaP）是未来，因此我们非常高兴为 .NET 开发者提供完整的工具包，使用 BotSharp 智能平台构建工具来创建 CaaP。它为您的机器人开放了尽可能多的学习能力，并精确控制人工智能处理管道中的每一步。"*
 
-**BotSharp** is an open source AI framework for your enterprise-grade LLM applications. This project involves natural language understanding, computer vision and audio processing technologies, and aims to promote the development and application of intelligent robot assistants in business oriented systems. Out-of-the-box machine learning algorithms allow ordinary programmers to develop artificial intelligence applications faster and easier. 
+**BotSharp** 是为企业级 LLM 应用提供的一个开源 AI 框架。该项目涉及自然语言理解、计算机视觉以及音频处理技术，旨在推动智能机器人助手在面向商业系统中的开发和应用。开箱即用的机器学习算法使普通程序员能够以更快、更简单的方式开发人工智能应用。
 
-It's witten in C# running on .NET which is a full cross-platform framework. C# is an enterprise-grade programming language which is widely used to code business logic in information management related system. More friendly to corporate developers. BotSharp adopts machine learning algrithm in C/C++ interfaces directly which skips the python interfaces. That will facilitate the feature of the typed language C#, and be easier when refactoring code in system scope. 
+BotSharp 使用 C# 开发，运行在 .NET 平台上，支持完整的跨平台功能。C# 是一种企业级编程语言，通常被广泛用于开发与信息管理系统相关的业务逻辑代码，更加适合企业开发者。BotSharp 直接采用了基于 C/C++ 接口的机器学习算法，跳过了 Python 接口的中间层。这充分发挥了强类型语言 C# 的优势，并且在系统范围内进行代码重构时更加便捷。
 
-BotSharp is strictly in accordance with the components principle and decouples every part that is needed in the platform builder. So you can choose different UI/UX, or pick up a different Vector Storage, or select a more advanced algorithm to do NLU tasks. They are all modularized based on unified interfaces.
+BotSharp 严格遵循组件化原则，将平台构建器中所需的每个部分进行解耦。因此，开发者可以选择不同的 UI/UX，或者使用另一种向量存储方式，甚至可以挑选更高级的算法来执行自然语言理解任务。所有模块都是基于统一接口进行模块化设计的。
 
-
-Indices and tables
+索引和目录
 ==================
-The main documentation for the site is organized into the following sections:
+网站的主要文档划分为以下几个部分：
 
-* :ref:`Get Started <get-started>`
-* :ref:`Integration Documentation <integration-docs>`
-* :ref:`Architecture Documentation <architecture-docs>`
-* :ref:`search`
+* :ref:`快速入门 <get-started>`
+* :ref:`集成文档 <integration-docs>`
+* :ref:`架构文档 <architecture-docs>`
+* :ref:`搜索 <search>`
 
 .. _get-started:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Get Started with BotSharp
-   
+   :caption: 快速开始 BotSharp
+
    quick-start/overview
    quick-start/get-started
    quick-start/installation
@@ -48,7 +48,7 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Agent
+   :caption: 智能代理（Agent）
 
    agent/intro
    agent/router
@@ -56,7 +56,7 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Conversation
+   :caption: 对话
 
    conversation/intro
    conversation/state
@@ -66,7 +66,7 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Interactive Channels
+   :caption: 互动渠道
 
    channels/intro
    channels/components
@@ -77,7 +77,7 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Knowledge Base
+   :caption: 知识库
 
    knowledge-base/text-embedding
    knowledge-base/vector-database
@@ -88,7 +88,7 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Prompt Engineering
+   :caption: 提示工程
 
    llm/prompt
    llm/template
@@ -100,7 +100,7 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Use Local LLM Models
+   :caption: 本地 LLM 模型使用
 
    llama-sharp/config-llamasharp
    llama-sharp/use-llamasharp-in-ui
@@ -109,8 +109,8 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Architecture
-   
+   :caption: 架构
+
    architecture/authentication
    architecture/plugin
    architecture/hooks
@@ -119,6 +119,6 @@ The main documentation for the site is organized into the following sections:
    architecture/logging
    architecture/data-persistence
 
-If you feel that this project is helpful to you, please Star us on the project, we will be very grateful.
+如果您认为这个项目对您有帮助，请为我们项目加星，我们将不胜感激。
 
 .. _discord: https://discord.gg/qRVm82fKTS
